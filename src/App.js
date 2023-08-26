@@ -65,8 +65,8 @@ function App() {
 
   return (
     <div>
-    <Portfolio projects={projects} selectedFilter={selectedFilter}/>
     <Toolbar filters={filters} selectedFilter={selectedFilter} onSelectFilter={setSelectedFilter}/>
+    <Portfolio projects={projects} selectedFilter={selectedFilter}/>
   </div>
   )
 }
